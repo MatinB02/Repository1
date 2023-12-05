@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 int calculate(int a, int b) {
 // A combination of both calculations
  return a * b * 2 -10 + (a + b);
@@ -6,7 +6,7 @@ int calculate(int a, int b) {
 
 
 
-nt pow2(int a) {
+int pow2(int a) {
  
  return a * a;
 }
